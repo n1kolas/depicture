@@ -1,0 +1,38 @@
+URxvt.depth: 32
+
+! special
+*.foreground:   {{ index .Colors 13 }}
+*.background:   {{ index .Colors 1 }}
+*.cursorColor:  {{ index .Colors 13 }}
+
+! black
+*.color0:       {{ index .Colors 1 }}
+*.color8:       {{ index .Colors 16 }}
+
+! red
+*.color1:       {{ index .Colors 7 }}
+*.color9:       {{ index .Colors 7 }}
+
+! green
+*.color2:       {{ index .Colors 9 }}
+*.color10:      {{ index .Colors 9 }}
+
+! yellow
+*.color3:       {{ index .Colors 10 }}
+*.color11:      {{ index .Colors 10 }}
+
+! blue
+*.color4:       {{ index .Colors 11 }}
+*.color12:      {{ index .Colors 11 }}
+
+! magenta
+*.color5:       {{ index .Colors 14 }}
+*.color13:      {{ index .Colors 14 }}
+
+! cyan
+*.color6:       {{ index .Colors 12 }}
+*.color14:      {{ index .Colors 12 }}
+
+! white
+*.color7:       {{ index .Colors 13 }}
+*.color15:      {{ index .Colors 13 }}
